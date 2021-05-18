@@ -1,10 +1,243 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <title>Reservia</title>
     <link rel="stylesheet" type="text/css" href="styles_p2.css">
 </head>
 <body>
-    <h1>Reservia</h1>
+    <div id="bloc_page">
+
+        <!-- Header -->
+        <header>
+            <div id="logo">
+                <img src="" alt="logo reservia">
+            </div>
+            <nav id="navigation">
+                <ul>
+                    <li><a href="#hebergement">Hébergement</a></li>
+                    <li><a href="#activites">Activités</a></li>
+                </ul>
+            </nav>
+            <div id="inscription">
+                S'inscrire
+            </div>
+        </header>
+        <!--Fin Header -->
+
+        <!--Titre + slogan-->
+        <h1>
+            Trouvez votre hébergement pour des vacances de rêve
+        </h1>
+        <p>
+            En plein centre ville ou en pleine nature
+        </p>
+        
+        <!-- Recherche-->
+        <section id="recherche">
+            <form method="post" action="carte.php">
+                <p>
+                    <label for="search">
+
+                    </label>
+                    <input type="search" name="search" id="search" />
+                    <button type="submit"><span>Rechercher</span></button>
+                </p>
+            </form>
+        </section>
+        <!--Fin Recherche-->
+
+        <!-- Filtres-->
+        <section id="filtres">
+            <div class="titre_filtres">
+                <strong>Filtres</strong>
+            </div>
+            <div class="box_filtres">
+
+                <!-- Economique -->
+                <div class="boss">
+                    <div class="blue">
+                        icone economique
+                    </div>
+                    <div class="element_box">
+                        Economique
+                    </div>
+                </div>
+                <!-- Fin Economique-->
+
+                <!-- Familial -->
+                <div class="boss">
+                    <div class="blue">
+                        icone familial
+                    </div>
+                    <div class="element_box">
+                        Familial
+                    </div>
+                </div>
+                <!-- Fin Familial-->
+
+                <!-- Romantique -->
+                <div class="boss">
+                    <div class="blue">
+                        icone romantique
+                    </div>
+                    <div class="element_box">
+                        Romantique
+                    </div>
+                </div>
+                <!-- Fin Romantique-->
+
+                <!-- Animaux autorisés -->
+                <div class="boss">
+                    <div class="blue">
+                        icone animaux autorisés
+                    </div>
+                    <div class="element_box">
+                        Animaux autorisés
+                    </div>
+                </div>
+                <!-- Fin Animaux autorisés-->
+            </div>
+        </section>
+        <!-- Fin filtres -->
+
+        <!-- Hebergement-->
+        <section id="hebergement">
+
+            <!--Hebergement a marseille -->
+            <div class="marseille">
+                <h2>Hébergement à marseille</h2>
+                <div class="vignettes_all">
+
+                    <!-- Cannebiere -->                    
+                    <article class="vignette">
+                        <a>
+                            <figure>
+                                <img src="" alt="Auberge la Cannebière">
+                            </figure>
+                            <figcaption>
+                                <p>
+                                <strong>Auberge la Cannebière</strong><br/>
+                                Nuit à partir de <strong>25€</strong>
+                                </p>
+                                <span class="star_blue">icone star</span><span class="star_grey">icone star</span>
+                            </figcaption>
+                        </a>
+                    </article>
+                    <!-- Fin Cannebiere -->
+                    <!-- Autres articles-->                 
+
+                </div>   
+                <h3>Afficher Plus</h3>        
+          </div>
+          <!-- Fin hebergement a marseille-->
+
+          <!-- Les plus populaires-->
+            <aside id="populaires">
+                <div class="title_pop">
+                    <h2>Les plus populaires</h2>
+                    icone stat
+                </div>
+                <div class="bloc_pop">
+
+                    <!-- Hotel le soleil du matin-->
+                    <article class="vignette_2">
+                        <a>
+                            <figure>
+                                <img src="" alt="Hotel le soleil du matin" />
+                            </figure>
+                            <figcaption>
+                                <p>
+                                <strong>Hôtel Le soleil du matin</strong><br/>
+                                Nuit à partir de <strong>128€</strong>
+                                </p>
+                                <span class="star_blue">icone star</span><span class="star_grey">icone star</span>
+                            </figcaption>
+                        </a>
+                    </article>
+                    <!-- Fin hotel le soleil du matin-->
+                    <!-- Autre article -->
+                </div>
+            </aside>          
+        </section>
+        <!-- Fin hebergement -->
+
+        <!-- Activites a marseille-->
+        <section id="activites">
+            <!-- vieux port-->
+            <div class="photo_1">
+                <figure>
+                    <img src="" alt="Vieux port" />
+                </figure>
+                <figcaption>
+                    Vieux port
+                </figcaption>
+            </div>
+
+            <!-- photos par 2 -->
+            <div class="photo_2">
+                <!-- Fort de Pomegues-->
+                <figure>
+                    <img src="" alt="Vieux port" />
+                </figure>
+                <figcaption>
+                    Vieux port
+                </figcaption>
+
+                <!-- Iles du Frioum-->
+                <figure>
+                    <img src="" alt="Vieux port" />
+                </figure>
+                <figcaption>
+                    Vieux port
+                </figcaption>
+            </div>
+
+            <!-- Autres photos-->
+
+        </section>
+
+        <!-- Footer-->
+        <footer>
+            <!-- A propos -->
+            <div class="footer_elements">
+                <p>
+                    <strong>A propos</strong>
+                </p>
+                <ul>
+                    <li>Fonctionnement du site</li>
+                    <li>Conditions générales de vente</li>
+                    <li>Données et confidentialité</li>
+                </ul>
+            </div>
+            <!-- Fin a propos-->
+
+            <!-- Nos hebergement -->
+            <div class="footer_elements">
+                <p>
+                    <strong>Nos hébergements</strong>
+                </p>
+                <ul>
+                    <li>Charte de qualité</li>
+                    <li>Soumettre votre hôtel</li>
+                </ul>
+            </div>
+            <!-- Fin nos hebergement-->
+
+            <!-- Assistance -->
+            <div class="footer_elements">
+                <p>
+                    <strong>Nos hébergements</strong>
+                </p>
+                <ul>
+                    <li>Charte de qualité</li>
+                    <li>Soumettre votre hôtel</li>
+                </ul>
+            </div>
+            <!-- Fin assistance-->
+        </footer>
+        <!--Fin du footer-->
+    </div>
+    <!-- Fin bloc page-->
+    
 </body>
 </html>
