@@ -1,6 +1,117 @@
+@font-face
+{
+	font-family:"Raleway;";
+	src: url("font/Raleway-Regular.ttf");
+}
+
+
 body
 {
-	
 	font-family: Raleway, Arial, sans-serif;
+}
+
+#bloc_page
+{
+	width: 1440px;
+	margin: auto;
+}
+
+header
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 30px 0px;
+}
+
+/* Hebergement et activites */
+nav ul
+{
+	display: flex;
+	list-style-type: none;
+	margin-left: 100%;
+}
+
+nav li
+{
+	margin-left: 75px;
+}
+
+nav li a
+{
+	text-decoration: none;
+	color: black;
+}
+
+nav li a:hover
+{
+	color: #0065FC;
+	border-top: 2px #0065FC solid;
+	padding-top: 44px;
+}
+/* Fin Hebergement et activites */
+
+/* inscription */
+#inscription
+{
+	font-weight: bold;
+	color:#0065FC;
+}
+/* Fin inscription */
+
+/* Champs de recherche */
+
+form
+{
+	display: flex;
+}
+
+label
+{
+	display: block;
+	float: left;
+	background-color: #F2F2F2;
+	width: 40px;
+	height: 40px;
+	border-radius:12px 0px 0px 12px;
+}
+
+label i
+{
+padding-left:15px;
+padding-top: 10px;
+}
+
+input
+{
+	height: 40px;
+	width: 250px;
+	border: 1px #F2F2F2 solid;
+	padding-left: 10px;
+	color: black;
+	font-family: Raleway, Arial, sans-serif;
+	font-weight: bold;
 	font-size: 1em;
+}
+
+
+
+button
+{
+	display: block;
+	float: right;
+	width: 140px;
+	height: 40px;
+	background-color: #0065FC;;
+	border-radius: 0px 12px 12px 0px;
+	border: 0px;
+	color: white;
+	font-family: Raleway, Arial, sans-serif;
+	font-weight: bold;
+	font-size:1em;
+}
+
+button i
+{
+	visibility: hidden;
 }
