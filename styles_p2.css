@@ -576,3 +576,40 @@ button i
 	margin-top: 20px;
 }
 
+/* Fin activités à marseille */
+
+/* Footer */
+
+footer
+{
+	height: auto;
+	background-color: #F2F2F2;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 60px;
+	padding-left: 40px;
+	padding-right: 400px;
+}
+
+.footer_elements
+{
+	margin: 30px 0px;
+}
+
+.footer_elements ul
+{
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.footer_elements li
+{
+	padding-bottom: 20px;
+}
+
+.footer_elements p
+{
+	padding-bottom: 10px;
+}
+
+/* Fin footer */
