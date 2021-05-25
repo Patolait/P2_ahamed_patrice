@@ -1,0 +1,344 @@
+@media screen and (max-width: 500px)
+
+{
+    #bloc_page
+    {
+        width: auto;
+    }
+
+    /* Reorganisation du header */
+    header
+    {
+        flex-wrap: wrap;
+        width: auto;
+        margin: 20px;
+    }
+
+    #logo
+    {
+        order: 1;
+    }
+
+    #navigation
+    {
+        order: 3;
+        margin: auto;
+        width: 100%;
+
+    }
+
+    #inscription
+    {
+        order:2;
+        margin-left: 100px ;
+    }   
+
+    nav ul
+    {
+        justify-content: space-between;
+        margin: auto;
+        width: auto;
+        padding-left:0;
+    }
+
+    nav li
+    {
+        margin: 20px 0px;
+        border-bottom: 3px #f2f2f2 solid;
+        padding-bottom: 10px;
+        text-align: center;
+        width: 50%;       
+    }
+
+    nav li:hover
+    {
+        border-bottom: 3px #0065FC solid;
+    }
+
+    nav li a:hover
+    {
+        color: #0065FC;
+	    border-top: 0;
+	    padding-top: 0;
+    }
+
+
+    
+    /* Fin reorganisation header */
+
+    /* Recherche */
+
+    #recherche
+    {
+        width: auto;
+        margin: 20px;
+    }
+
+    #recherche p
+    {
+        margin-bottom: 40px;
+    }
+
+    /* Champs rechercher */
+
+    form
+    {
+        width: auto;
+    }
+
+    input
+    {
+        width: 76%;
+        border: 0;
+    }
+
+    .rechercher
+    {
+        width: 12%;
+        border-radius: 12px;
+    }
+
+    .cache
+    {
+        display: none;
+    }
+
+    .rechercher i
+    {
+        visibility: visible;
+        padding-bottom: 15px;
+    }
+
+
+    /* Fin recherche */
+
+    /* Filtres */
+
+    #filtres    
+    {
+	flex-direction: column;
+    margin:20px;
+    }
+
+    .titre_filtres
+    {	
+        width: 100%;
+        margin : 0px 0px 20px 0px;	
+    }
+
+
+    .box_filtres
+    {
+        width: auto;
+        height: auto;
+        flex-wrap: wrap;	
+        justify-content: space-between;
+    }
+
+    .box
+    {
+        margin-bottom: 20px;
+        margin-right: 10px;
+    }
+
+    /* Fin filtres */
+    /* Informations */
+
+    .information
+    {
+        width: auto;
+        margin: 20px;
+    }
+
+    .info
+    {
+        width: 10%;
+        border-radius: 30px;
+    }
+
+    .info i
+    {
+        padding: 6px 0px 0px 12px;
+    }
+
+    .logement
+    {width: auto;}
+
+    /* Hebergements */
+    /* Populaires */
+
+    #hebergement
+    {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+      #populaires
+    {
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .title_pop
+    {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .bloc_pop
+    {
+        margin-left: 20px;
+        margin-right: 20px; 
+    }
+
+    .vignette_2
+    {
+        width: 95%;
+        height: 150px;
+        margin-bottom: 10px;
+    }
+
+    .vignette_2 figure
+    {
+        margin: auto;
+    }
+
+    .vignette_2 figure img
+    {
+        width: 40%;
+        height: 100%;
+        border-radius: 15px 0px 0px 15px;
+        object-fit: cover;	
+    }
+
+    .vignette_2 figcaption
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around ;
+    }
+
+    /* Fin populaires */
+    /* Hebergement à Marseille */
+
+    .marseille
+    {
+        flex:1;
+        background-color: white;
+        margin-right: 0;
+        width: 100%;
+        padding: 0;
+        margin: 20px 20px;
+    }
+
+    .marseille h2
+    {
+        margin-left: 0;
+    }
+
+    .vignettes_all
+    {
+        
+        flex-direction: column;
+    }
+
+    .vignette
+    {
+        width: 87%;
+        margin:0px 0px 20px 0px;
+    } 
+
+    /* Fin Hebergement à Marseille */
+    /* Activité à Marseille */
+
+    #activites
+    {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    #activites h2
+    {
+        margin-left: 20px;
+    }
+
+    .portefolio
+    {
+        flex-direction: column;
+        margin: 10px 20px 10px 20px;
+        width: 97%;
+    }
+
+    .photo_1
+    {
+        width: 92%;
+        height: 190px;
+        margin-bottom: 20px;
+    }
+
+    .photo_1 figure img
+    {
+        height: 75%;
+    }
+
+    .photo_1 figcaption
+    {
+        height: 0;
+        position: static;
+        padding: 10px 20px;
+
+    }
+
+    .photo_duo
+    {
+        margin-bottom: 20px;
+        height: 400px;
+        width: 92%;
+    }
+
+    .photo_2
+    {
+        height: 50%;
+        margin-bottom: 0px;
+    }
+
+    .photo_3
+    {
+        height: 50%;
+    }
+
+    .photo_4
+    {
+        height: 50%;
+        margin-bottom: 0px;
+    }
+
+    .photo_5
+    {
+        height: 50%;
+        margin-bottom: 0px;
+    }
+
+    /* Fin Activité à Marseille */
+    /* Footer */
+
+    footer
+    {
+        width: 100%;
+        margin: auto;
+    }
+
+    #footer_group
+    {
+        flex-direction: column;
+        width: auto;
+        margin: 0px 20px;
+    }
+
+    .footer_elements
+    {
+        margin: 20px 0px 20px 0px;
+    }
+
+
+}
