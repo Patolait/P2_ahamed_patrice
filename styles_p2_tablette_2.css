@@ -1,0 +1,78 @@
+@media screen and (max-width: 1000px)
+{
+
+    /* Populaires */
+
+    #populaires
+    {
+        flex:2.5;
+    }
+
+    .vignette
+    {
+        width: 90%;
+    }
+
+    /* Fin populaires */
+    /* Activites à Marseille */
+
+    .portefolio
+    {
+        flex-direction: column;
+    }
+
+    .photo_1
+    {
+        width: 100%;
+        margin: 20px 0px;
+    }
+
+    .portefolio figcaption
+    {
+        height: 0;
+        position: static;
+        text-align: center;
+        padding: 10px 0px 0px 0px;
+    }
+
+    .photo_duo
+    {
+        width: 100%;
+        height: 880px;
+    }
+
+    .photo_duo figure img
+    {
+        height:89%;
+    }
+
+    .photo_2
+    {
+        height: 50%;
+    }
+
+    .photo_3, .photo_4, .photo_5
+    {
+        height: 50%;
+        margin-top: 0;
+    }
+
+    /* Fin activites a Marseille */
+    /* Footer */
+
+    #footer_group
+    {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin: 20px;
+    }
+
+    .footer_elements
+    {
+        margin: 20px ;
+    }
+
+    /* Fin footer */
+  
+}

@@ -1,4 +1,4 @@
-@media screen and (max-width: 500px)
+@media screen and (max-width: 700px)
 
 {
     #bloc_page
@@ -61,11 +61,8 @@
 	    border-top: 0;
 	    padding-top: 0;
     }
-
-
     
     /* Fin reorganisation header */
-
     /* Recherche */
 
     #recherche
@@ -109,9 +106,7 @@
         padding-bottom: 15px;
     }
 
-
     /* Fin recherche */
-
     /* Filtres */
 
     #filtres    
@@ -164,14 +159,15 @@
     .logement
     {width: auto;}
 
-    /* Hebergements */
-    /* Populaires */
+    /* Hebergements */    
 
     #hebergement
     {
         flex-direction: column-reverse;
         width: 100%;
     }
+
+    /* Populaires */
 
       #populaires
     {
@@ -187,8 +183,7 @@
 
     .bloc_pop
     {
-        margin-left: 20px;
-        margin-right: 20px; 
+        margin: 0px 20px 20px 30px; 
     }
 
     .vignette_2
@@ -265,7 +260,7 @@
     .portefolio
     {
         flex-direction: column;
-        margin: 10px 20px 10px 20px;
+        margin: 10px 20px 30px 20px;
         width: 97%;
     }
 
@@ -276,7 +271,7 @@
         margin-bottom: 20px;
     }
 
-    .photo_1 figure img
+    .portefolio figure img
     {
         height: 75%;
     }
@@ -291,7 +286,6 @@
 
     .photo_duo
     {
-        margin-bottom: 20px;
         height: 400px;
         width: 92%;
     }
@@ -299,7 +293,7 @@
     .photo_2
     {
         height: 50%;
-        margin-bottom: 0px;
+        margin-bottom: 20px;
     }
 
     .photo_3
@@ -310,7 +304,7 @@
     .photo_4
     {
         height: 50%;
-        margin-bottom: 0px;
+        margin-bottom: 20px;
     }
 
     .photo_5
@@ -340,5 +334,6 @@
         margin: 20px 0px 20px 0px;
     }
 
+    /* Fin footer */
 
 }

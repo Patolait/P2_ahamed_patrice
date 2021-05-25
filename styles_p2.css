@@ -12,8 +12,8 @@ body
 
 #bloc_page
 {
-	width: 1440px;
-	margin: auto;
+	width: auto;
+	margin: 20px
 }
 
 header
@@ -28,6 +28,7 @@ header
 nav ul
 {
 	margin-left: 700px;
+	margin-right: 30px;
 	display: flex;
 	list-style-type: none;
 
@@ -108,8 +109,6 @@ input
 	margin-right: 0px;
 }
 
-
-
 .rechercher
 {
 	
@@ -131,9 +130,7 @@ input
 	visibility: hidden;
 }
 
-
 /* Fin Champs de recherche */
-
 /* Filtres */
 
 #filtres
@@ -184,7 +181,6 @@ input
 	left: 0px;
 	top: 0px;
 	bottom: 1px;
-
 }
 
 .blue i
@@ -203,7 +199,6 @@ input
 }
 
 /* Fin filtres */
-
 /* Informations */
 
 .information
@@ -211,7 +206,6 @@ input
 	display: flex;
 	align-items: center;
 	margin: 30px 0px;
-
 }
 
 .info
@@ -234,7 +228,6 @@ input
 }
 
 /* Fin Informations */
-
 /* Hebergement */
 
 #hebergement
@@ -313,6 +306,7 @@ input
 	border-radius: 15px 15px 0px 0px;
 	object-fit: cover;	
 }
+
 /*texte*/
 .vignette figure figcaption
 {
@@ -346,7 +340,6 @@ input
 }
 
 /* Fin Hebergement a Marseille */
-
 /* Les plus Populaires */
 
 .title_pop
@@ -453,6 +446,7 @@ input
 	color:#F2F2F2;
 }
 
+/* Fin les populaires */
 /* Activites a Marseille */
 
 #activites
@@ -551,7 +545,6 @@ input
 	margin: auto;
 }
 
-
 .photo_duo figure img
 {
 	width: 100%;
@@ -593,7 +586,6 @@ input
 }
 
 /* Fin activités à marseille */
-
 /* Footer */
 
 footer

@@ -1,0 +1,50 @@
+
+@media screen and (max-width: 1200px)
+{
+
+    #bloc_page
+    {
+        width: auto;
+    }
+
+    /* Navigation */
+
+    nav ul
+    {
+        margin-left: 0%;
+    }
+
+    nav li
+    {
+        margin: 0px 20px;
+    }
+
+    /* Fin navigation */
+    /* Filtres */
+
+    .box_filtres
+    {
+        flex-wrap: wrap;
+    }
+
+    .box
+    {
+        margin-bottom:10px;
+    }
+
+    /* Fin filtres */
+    /* Hebergement */
+
+    .vignette
+    {
+        width: 40%;
+    }
+
+    .marseille
+    {
+        flex: 1.5;
+    }
+
+    /* Fin hebergement */    
+
+}
