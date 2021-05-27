@@ -30,8 +30,13 @@
     #inscription
     {
         order:2;
-        margin-left: 100px ;
-    }   
+        margin: 0;
+    }  
+    
+    nav
+    {
+        position: static;
+    }
 
     nav ul
     {
@@ -44,6 +49,7 @@
     nav li
     {
         margin: 20px 0px;
+        border-top: 0;
         border-bottom: 3px #f2f2f2 solid;
         padding-bottom: 10px;
         text-align: center;
@@ -53,13 +59,12 @@
     nav li:hover
     {
         border-bottom: 3px #0065FC solid;
+        border-top:0;
     }
 
     nav li a:hover
     {
         color: #0065FC;
-	    border-top: 0;
-	    padding-top: 0;
     }
     
     /* Fin reorganisation header */
@@ -83,15 +88,20 @@
         width: auto;
     }
 
+    label
+    {
+        width: 60px;
+    }
+
     input
     {
-        width: 76%;
+        width: 100%;
         border: 0;
     }
 
     .rechercher
     {
-        width: 12%;
+        width: 60px;
         border-radius: 12px;
     }
 
@@ -103,7 +113,7 @@
     .rechercher i
     {
         visibility: visible;
-        padding-bottom: 15px;
+        font-size: 1.1em;
     }
 
     /* Fin recherche */
@@ -118,7 +128,7 @@
     .titre_filtres
     {	
         width: 100%;
-        margin : 0px 0px 20px 0px;	
+        margin : 0px 0px 10px 0px;	
     }
 
 
@@ -132,7 +142,7 @@
 
     .box
     {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         margin-right: 10px;
     }
 
@@ -210,7 +220,17 @@
     {
         display: flex;
         flex-direction: column;
-        justify-content: space-around ;
+        justify-content: space-between ;
+    }
+
+    .name
+    {
+        padding: 20px 10px 0px 20px;
+    }
+
+    .stars
+    {
+        padding: 0px 10px 20px 20px;
     }
 
     /* Fin populaires */
@@ -226,7 +246,7 @@
         margin: 20px 20px;
     }
 
-    .marseille h2
+    .marseille h2, h3
     {
         margin-left: 0;
     }
@@ -243,13 +263,19 @@
         margin:0px 0px 20px 0px;
     } 
 
+    .vignette .stars
+    {
+        padding: 0px 10px 20px 0px;
+    }
+
     /* Fin Hebergement à Marseille */
     /* Activité à Marseille */
 
     #activites
     {
         width: 100%;
-        margin-top: 10px;
+        margin: auto;
+        padding: 0;
     }
 
     #activites h2
@@ -268,7 +294,8 @@
     {
         width: 92%;
         height: 190px;
-        margin-bottom: 20px;
+        margin-bottom: 25px;
+        margin-top: 10px;
     }
 
     .portefolio figure img
@@ -276,11 +303,10 @@
         height: 75%;
     }
 
-    .photo_1 figcaption
+    .portefolio figcaption
     {
-        height: 0;
-        position: static;
         padding: 10px 20px;
+        text-align: left;
 
     }
 
@@ -290,7 +316,7 @@
         width: 92%;
     }
 
-    .photo_2
+    .photo_2, .photo_4
     {
         height: 50%;
         margin-bottom: 20px;
@@ -299,12 +325,6 @@
     .photo_3
     {
         height: 50%;
-    }
-
-    .photo_4
-    {
-        height: 50%;
-        margin-bottom: 20px;
     }
 
     .photo_5
@@ -326,12 +346,23 @@
     {
         flex-direction: column;
         width: auto;
-        margin: 0px 20px;
+        margin: 40px 0px 0px 40px;
     }
 
     .footer_elements
     {
-        margin: 20px 0px 20px 0px;
+        margin: 0;
+        width: 100%;
+    }
+
+    .footer_elements p
+    {
+        padding-bottom: 0;
+    }
+
+    .footer_elements li
+    {
+        padding-bottom: 10px;
     }
 
     /* Fin footer */

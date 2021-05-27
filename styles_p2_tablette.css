@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 1200px)
+@media screen and (max-width: 1300px)
 {
 
     #bloc_page
@@ -45,6 +45,12 @@
         flex: 1.5;
     }
 
-    /* Fin hebergement */    
+    /* Fin hebergement */   
+    /* Footer */ 
+
+    #footer_group
+    {
+        width: 100%;
+    }
 
 }
