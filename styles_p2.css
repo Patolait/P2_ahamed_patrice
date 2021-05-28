@@ -331,22 +331,27 @@ input
 /*texte*/
 .vignette figcaption
 {
-	width: 100%;
+	width: 95%;
 	height: 40%;
-	padding: 5px 0px 5px 0px;
-	padding-left: 5%;
-	padding-bottom: 3%;
+	padding: 5px 0px 5px 17px;
+}
+
+.vignette h4
+{
+	margin:3px 0px;
+}
+
+.vignette p
+{
+	margin: 6px 0px 7px 0px;
 }
 
 /* Etoile */
-.vignette figcaption span
+
+.vignette .stars
 {
 	font-size: 0.9em;
-}
-
-.vignette figcaption br
-{
-	margin:3px
+	margin: 5px 0px;
 }
 
 .star_blue
@@ -437,22 +442,16 @@ input
 	padding: 10px 10px 0px 20px;
 }
 
-
-.vignette_2 .stars
+.vignette_2 h4
 {
-	padding: 0px 10px 10px 20px;
+	margin: 3px 0px 0px 0px;
 }
 
-
-.vignette_2 figcaption p
+.vignette_2 p
 {
 	font-size: 1em;
-	padding-left: 20px;
-}
+	margin: 7px 0px;
 
-.vignette_2 figcaption br
-{
-	margin:3px
 }
 
 .nuit
@@ -460,9 +459,9 @@ input
 	font-size: 0.9em;
 }
 
-.vignette_2 i
+.vignette_2 .stars
 {
-	
+	padding: 0px 10px 10px 20px;
 	font-size: 0.7em;
 }
 
@@ -646,6 +645,12 @@ footer
 .footer_elements li
 {
 	padding-bottom: 20px;
+}
+
+footer a
+{
+	text-decoration: none;
+	color: black;
 }
 
 .footer_elements p
