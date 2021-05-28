@@ -623,6 +623,11 @@ footer
 	margin-top: 60px;
 }
 
+footer h4
+{
+	margin-top: 50px;
+}
+
 #footer_group
 {
 	width: 100%;

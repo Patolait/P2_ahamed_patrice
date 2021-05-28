@@ -199,7 +199,7 @@
     .vignette_2
     {
         width: 95%;
-        height: 150px;
+        height: 140px;
         margin-bottom: 10px;
     }
 
@@ -223,10 +223,11 @@
         justify-content: space-between ;
     }
 
-    .name
-    {
-        padding: 20px 10px 0px 20px;
-    }
+    .vignette_2 .stars
+{
+	padding: 0px 10px 8px 20px;
+}
+
 
     .stars
     {
@@ -342,11 +343,16 @@
         margin: auto;
     }
 
+    footer h4
+    {
+        margin-top: 0;
+    }
+
     #footer_group
     {
         flex-direction: column;
         width: auto;
-        margin: 40px 0px 0px 40px;
+        margin: 40px 0px 20px 40px;
     }
 
     .footer_elements
